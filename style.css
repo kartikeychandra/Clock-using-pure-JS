@@ -1,0 +1,43 @@
+#container{
+    position: relative;
+    margin: 50px auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2.7%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+}
+#minute{
+    width:2.2%;
+    height: 33%;
+    top: 18%;
+    left:49.3%;
+}
+#second{
+    width:1.8%;
+    height:38%;
+    top:13%;
+    left:49.45%;
+}
+body{
+    background-color: coral;
+}
+.title{
+   
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 31%;
+    color: black;
+}
